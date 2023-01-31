@@ -2,11 +2,15 @@
 var items = document.getElementsByClassName("list-group-item");
 console.log(items);
 console.log(items[1]);
-items[1].textContent = 'hello 2';
-items[0].style.fontWeight = 'bold';
-items[1].style.fontWeight = 'bold';
-items[2].style.fontWeight = 'bold';
-items[3].style.fontWeight = 'bold';
-items[1].style.backgroundColor = 'yellow';
-items[2].style.backgroundColor = 'green';
+li[1].textContent = 'hello 2';
+li[1].style.fontWeight = 'bold';
+li[1].style.backgroundColor = 'yellow';
 
+
+
+//gives error
+//items.backgroundColor = '#f4f4f4';
+
+for(var i=0;i < li.length; i++){
+    li[1].style.backgroundColor ='#f4f4f4';
+}
